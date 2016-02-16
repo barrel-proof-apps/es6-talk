@@ -8,14 +8,14 @@ var  myservice = {
 			},1000)
 		})
 	},
-	getCity: function(param, cb) {
+	getCity: function(param) {
 		return new Promise(function(resolve, reject) {
 			setTimeout(function() {
 				resolve({id:1, name: "atlatna"})
 			},1000)
 		})
 	},
-	update: function(param, cb) {
+	update: function(param) {
 		return new Promise(function(resolve, reject) {
 			setTimeout(function() {
 				resolve()
