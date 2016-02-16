@@ -1,6 +1,5 @@
 var when = require("when")
 
-
 var  myservice = {
 	connect: function(param) {
 		return when.promise(function(resolve, reject, notify) {
@@ -25,8 +24,6 @@ var  myservice = {
 	},
 }
 
-
-//implementation
 myservice.connect({user: "az",pass: "pwd"}).then(function(result) {
 	return myservice.getCity(1);
 }).then(function(result){

@@ -1,6 +1,5 @@
 "use strict";
-
-//call with --harmony-destructuring
+//--harmony-destructuring
 
 let [a, ,b] = ["atlanta", "austin", "nashville"];
 

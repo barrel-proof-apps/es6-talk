@@ -1,6 +1,5 @@
 "use strict"
 
-
 let trip = {
 	stops: ["atlanta", "nashville", "memphis", "new orleans", "houston"],
 	nextIndex: 0,
@@ -17,7 +16,6 @@ let trip = {
 		}
 	}
 };
-
 
 console.log(trip.next().value);
 console.log(trip.next().value);

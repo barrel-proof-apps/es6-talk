@@ -1,4 +1,6 @@
 "use strict"
+// --harmony_proxies
+//fails
 
 var target = {
 	age: 41

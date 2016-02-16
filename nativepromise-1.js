@@ -24,8 +24,6 @@ var  myservice = {
 	},
 }
 
-
-//implementation
 myservice.connect({user: "az",pass: "pwd"}).then(function(result) {
 	return myservice.getCity(1);
 }).then(function(result){

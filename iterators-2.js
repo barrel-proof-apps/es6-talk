@@ -1,6 +1,5 @@
 "use strict"
 
-
 let trip = {
 	stops: ["atlanta", "nashville", "memphis", "new orleans", "houston"],
 	nextIndex: 0,

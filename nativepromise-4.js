@@ -3,7 +3,6 @@
 var co = require("co"),
 	_ = require("underscore");
 
-
 var  myservice = {
 	connect: function(param) {
 		return new Promise(function(resolve, reject) {
@@ -27,7 +26,6 @@ var  myservice = {
 		})
 	},
 }
-
 
 co(function*() {
 	yield myservice.connect();

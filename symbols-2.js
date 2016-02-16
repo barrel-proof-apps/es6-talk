@@ -2,7 +2,6 @@
 
 let person = { };
 
-
 (function() {
 	let name = Symbol.for("name");
 	person[name] = "andrew";

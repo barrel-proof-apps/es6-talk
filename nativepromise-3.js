@@ -27,7 +27,6 @@ var  myservice = {
 	},
 }
 
-
 co(function*() {
 	yield myservice.connect();
 	console.log("connected")

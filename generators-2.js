@@ -1,4 +1,5 @@
 "use strict"
+//fails
 
 function* generator_ex() {
 	yield 1;
